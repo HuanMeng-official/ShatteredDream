@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "shdr",
+	"version": "${version}",
+	"name": "ShatteredDream",
+	"description": "",
+	"authors": [
+		"HuanMeng_"
+	],
+	"contact": {
+		"sources": "https://github.com/HuanMeng-official/ShatteredDream"
+	},
+	"license": "MIT",
+	"icon": "assets/shdr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.huanmeng.ShatteredDream"
+		],
+		"client": [
+			"me.huanmeng.ShatteredDreamClient"
+		],
+		"fabric-datagen": [
+			"me.huanmeng.ShatteredDreamDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
