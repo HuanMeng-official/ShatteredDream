@@ -8,9 +8,9 @@ import net.minecraft.util.Identifier;
 
 public class SDitems {
 
-    public static final Item DREAM_SPLINTER;
+    public static final Item DREAM_SHARD;
     static {
-        DREAM_SPLINTER = registerItem("dream_splinter", new Item(new Item.Settings()));
+        DREAM_SHARD = registerItem("dream_shard", new Item(new Item.Settings()));
     }
 
     public static Item registerItem(String name, Item item) {

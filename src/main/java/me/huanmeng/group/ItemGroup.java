@@ -14,10 +14,10 @@ public class ItemGroup {
     public static final net.minecraft.item.ItemGroup ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ShatteredDream.MODID, "items_group"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(SDitems.DREAM_SPLINTER))
+                    .icon(() -> new ItemStack(SDitems.DREAM_SHARD))
                     .displayName(Text.translatable("ig.shdr.item"))
                     .entries((displayContext, entries) -> {
-                        entries.add(SDitems.DREAM_SPLINTER);
+                        entries.add(SDitems.DREAM_SHARD);
                     })
                     .build());
 
