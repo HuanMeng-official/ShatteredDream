@@ -8,7 +8,15 @@
 		"HuanMeng_"
 	],
 	"contact": {
-		"sources": "https://github.com/HuanMeng-official/ShatteredDream"
+		"sources": "https://github.com/HuanMeng-official/ShatteredDream",
+		"issues": "https://github.com/HuanMeng-official/ShatteredDream/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.bilibili": "https://space.bilibili.com/626446902"
+			}
+		}
 	},
 	"license": "MIT",
 	"icon": "assets/shdr/icon.png",

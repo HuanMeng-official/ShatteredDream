@@ -1,4 +1,8 @@
 {
+  "modmenu.descriptionTranslation.shdr": "ShatteredDream is a Minecraft mod focused on dimension exploration",
+  "modmenu.nameTranslation.shdr": "ShatteredDream",
+  "modmenu.bilibili": "Bilibili",
+
   "ig.shdr.item": "ShatteredDream | Items",
 
   "item.shdr.dream_shard": "Dream Shard"
