@@ -18,6 +18,7 @@ public class ItemGroup {
                     .displayName(Text.translatable("ig.shdr.item"))
                     .entries((displayContext, entries) -> {
                         entries.add(SDitems.DREAM_SHARD);
+                        entries.add(SDitems.SOUL_SHARD);
                     })
                     .build());
 

@@ -19,5 +19,6 @@ public class ModelsProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(SDitems.DREAM_SHARD, Models.GENERATED);
+        itemModelGenerator.register(SDitems.SOUL_SHARD, Models.GENERATED);
     }
 }

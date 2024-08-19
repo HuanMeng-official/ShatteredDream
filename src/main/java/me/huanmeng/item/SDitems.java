@@ -9,8 +9,10 @@ import net.minecraft.util.Identifier;
 public class SDitems {
 
     public static final Item DREAM_SHARD;
+    public static final Item SOUL_SHARD;
     static {
         DREAM_SHARD = registerItem("dream_shard", new Item(new Item.Settings()));
+        SOUL_SHARD = registerItem("soul_shard", new Item(new Item.Settings()));
     }
 
     public static Item registerItem(String name, Item item) {
