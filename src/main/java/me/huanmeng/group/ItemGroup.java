@@ -19,6 +19,7 @@ public class ItemGroup {
                     .entries((displayContext, entries) -> {
                         entries.add(SDItems.DREAM_SHARD);
                         entries.add(SDItems.SOUL_SHARD);
+                        entries.add(SDItems.TAINTED_SOUL_SHARD);
                     })
                     .build());
 

@@ -20,5 +20,6 @@ public class ModelsProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(SDItems.DREAM_SHARD, Models.GENERATED);
         itemModelGenerator.register(SDItems.SOUL_SHARD, Models.GENERATED);
+        itemModelGenerator.register(SDItems.TAINTED_SOUL_SHARD, Models.GENERATED);
     }
 }
