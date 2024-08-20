@@ -2,6 +2,7 @@ package me.huanmeng.item;
 
 import me.huanmeng.ShatteredDream;
 import me.huanmeng.item.custom.DreamShard;
+import me.huanmeng.item.custom.SoulShard;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -13,7 +14,7 @@ public class SDItems {
     public static final Item SOUL_SHARD;
     static {
         DREAM_SHARD = registerItem("dream_shard", new DreamShard(new Item.Settings()));
-        SOUL_SHARD = registerItem("soul_shard", new Item(new Item.Settings()));
+        SOUL_SHARD = registerItem("soul_shard", new SoulShard(new Item.Settings()));
     }
 
     public static Item registerItem(String name, Item item) {
