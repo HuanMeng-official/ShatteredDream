@@ -6,5 +6,9 @@
   "ig.shdr.item": "碎梦 | 物品",
 
   "item.shdr.dream_shard": "梦境碎片",
-  "item.shdr.soul_shard": "灵魂碎片"
+  "item.shdr.soul_shard": "灵魂碎片",
+
+  "tooltip.shdr.dream_shard_1": "现实与幻象的交汇，",
+  "tooltip.shdr.dream_shard_2": "揭示潜意识中的欲望与真相，",
+  "tooltip.shdr.dream_shard_3": "模糊现实与虚幻的界限"
 }

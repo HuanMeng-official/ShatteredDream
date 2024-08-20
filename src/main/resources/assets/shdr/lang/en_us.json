@@ -6,5 +6,9 @@
   "ig.shdr.item": "ShatteredDream | Items",
 
   "item.shdr.dream_shard": "Dream Shard",
-  "item.shdr.soul_shard": "Soul Shard"
+  "item.shdr.soul_shard": "Soul Shard",
+
+  "tooltip.shdr.dream_shard_1": "The merging of reality and illusion,",
+  "tooltip.shdr.dream_shard_2": "revealing subconscious truths and desires,",
+  "tooltip.shdr.dream_shard_3": "blurring the boundary between real and imagined"
 }
