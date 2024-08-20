@@ -7,7 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class SDitems {
+public class SDItems {
 
     public static final Item DREAM_SHARD;
     public static final Item SOUL_SHARD;

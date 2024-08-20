@@ -1,7 +1,7 @@
 package me.huanmeng.group;
 
 import me.huanmeng.ShatteredDream;
-import me.huanmeng.item.SDitems;
+import me.huanmeng.item.SDItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -14,11 +14,11 @@ public class ItemGroup {
     public static final net.minecraft.item.ItemGroup ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ShatteredDream.MODID, "items_group"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(SDitems.DREAM_SHARD))
+                    .icon(() -> new ItemStack(SDItems.DREAM_SHARD))
                     .displayName(Text.translatable("ig.shdr.item"))
                     .entries((displayContext, entries) -> {
-                        entries.add(SDitems.DREAM_SHARD);
-                        entries.add(SDitems.SOUL_SHARD);
+                        entries.add(SDItems.DREAM_SHARD);
+                        entries.add(SDItems.SOUL_SHARD);
                     })
                     .build());
 

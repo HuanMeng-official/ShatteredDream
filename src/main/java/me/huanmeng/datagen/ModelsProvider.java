@@ -1,6 +1,6 @@
 package me.huanmeng.datagen;
 
-import me.huanmeng.item.SDitems;
+import me.huanmeng.item.SDItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -18,7 +18,7 @@ public class ModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(SDitems.DREAM_SHARD, Models.GENERATED);
-        itemModelGenerator.register(SDitems.SOUL_SHARD, Models.GENERATED);
+        itemModelGenerator.register(SDItems.DREAM_SHARD, Models.GENERATED);
+        itemModelGenerator.register(SDItems.SOUL_SHARD, Models.GENERATED);
     }
 }
