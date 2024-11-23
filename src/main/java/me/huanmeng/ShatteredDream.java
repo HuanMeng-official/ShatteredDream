@@ -12,7 +12,6 @@ public class ShatteredDream implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-        LOGGER.info("You are running ShatteredDream on Minecraft 1.21");
 		SDItems.registryItems();
 		ItemGroup.registryGroup();
 	}

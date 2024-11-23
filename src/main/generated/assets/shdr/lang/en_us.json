@@ -1,22 +1,19 @@
 {
-  "modmenu.descriptionTranslation.shdr": "ShatteredDream is a Minecraft mod focused on dimension exploration",
-  "modmenu.nameTranslation.shdr": "ShatteredDream",
-  "modmenu.bilibili": "Bilibili",
-
   "ig.shdr.item": "ShatteredDream | Items",
-
   "item.shdr.dream_shard": "Dream Shard",
   "item.shdr.nightmare_shard": "Nightmare Shard",
   "item.shdr.soul_shard": "Soul Shard",
   "item.shdr.tainted_soul_shard": "Tainted Soul Shard",
-
+  "modmenu.bilibili": "Bilibili",
+  "modmenu.descriptionTranslation.shdr": "ShatteredDream is a Minecraft mod focused on dimension exploration",
+  "modmenu.nameTranslation.shdr": "ShatteredDream",
   "tooltip.shdr.dream_shard_1": "The merging of reality and illusion,",
   "tooltip.shdr.dream_shard_2": "revealing subconscious truths and desires,",
   "tooltip.shdr.dream_shard_3": "blurring the boundary between real and imagined",
-  "tooltip.shdr.soul_shard_1": "Fragments of the soul reveal hidden depths,",
-  "tooltip.shdr.soul_shard_2": "and the intricate desires of existence",
-  "tooltip.shdr.tainted_soul_shard_1": "Traces left by a once-pure soul in pain, reflecting inner struggles",
   "tooltip.shdr.nightmare_shard_1": "The blending of reality and illusion,",
   "tooltip.shdr.nightmare_shard_2": "sullies the purity of the mind,",
-  "tooltip.shdr.nightmare_shard_3": "leaving the soul lost and adrift"
+  "tooltip.shdr.nightmare_shard_3": "leaving the soul lost and adrift",
+  "tooltip.shdr.soul_shard_1": "Fragments of the soul reveal hidden depths,",
+  "tooltip.shdr.soul_shard_2": "and the intricate desires of existence",
+  "tooltip.shdr.tainted_soul_shard_1": "Traces left by a once-pure soul in pain, reflecting inner struggles"
 }
